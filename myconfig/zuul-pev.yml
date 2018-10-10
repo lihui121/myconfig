@@ -2,7 +2,7 @@ zuul:
   host:
     connect-timeout-millis: 20000
     socket-timeout-millis: 20000
-  prefix: /app
+  prefix: /api
   routes:
       sensitiveHeaders:
 

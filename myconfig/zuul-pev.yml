@@ -5,4 +5,6 @@ zuul:
   prefix: /api
   routes:
       sensitiveHeaders:
-
+ribbon:
+  ReadTimeout: 3000
+  ConnectTimeout: 3000
